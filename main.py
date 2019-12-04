@@ -291,7 +291,7 @@ if __name__=='__main__':
 
     # Get fasterRCNN object from torchvision models
     model = torchvision.models.detection.fasterrcnn_resnet50_fpn(pretrained=True)
-    from torchvision import transforms as T
+    
     model.to(device)
 
     classes = args.classes
@@ -352,6 +352,7 @@ if __name__=='__main__':
     # For testing
  
     #TODO create another file
+    from torchvision import transforms as T
     model.load_state_dict(torch.load('fasterRNN-hand.pt'))
     
     # Test random image from dataset 
