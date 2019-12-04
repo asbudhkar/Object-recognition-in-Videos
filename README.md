@@ -21,8 +21,8 @@ For an image file img.jpg, a dictionary img.txt exists
 
 python main.py --classes "obj1,obj2" [OPTION] 
 
---epochs - Epochs for training
---batch_size - Batch size for training
---batch_size_test - Batch size for testing
---classes - String with class dictionary
+--epochs - Epochs for training  
+--batch_size - Batch size for training  
+--batch_size_test - Batch size for testing  
+--classes - String with class dictionary  
 
