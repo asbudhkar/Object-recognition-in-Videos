@@ -17,6 +17,8 @@ bounding box - x y width height
 
 For an image file img.jpg, a dictionary img.txt exists
 
+3. For testing - Videos
+
 ## Running instructions
 
 python main.py --classes "obj1,obj2" [OPTION] 
